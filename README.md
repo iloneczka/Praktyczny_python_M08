@@ -20,9 +20,19 @@ This program performs a basic analysis of historical Facebook (FB) stock data. I
 * Plotting the closing price, moving average, and volume on the same graph
 
 ## Technologies Used
-The program is written in Python.
+- Python: The project is implemented using Python, a powerful and versatile programming language.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+- Pandas: Pandas, a popular Python library, is utilized for data manipulation and analysis, enabling efficient handling of structured data.
+
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+
+- Jupyter Notebook: The project is developed in Jupyter Notebook, an interactive computing environment that facilitates code execution and data visualization.
+
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+
+These technologies collectively support the successful execution of the Stock Data Analysis project, providing effective data processing, analysis, and visualization capabilities.
 
 ## Prerequisites
 To run this project, make sure you have Python 3.11.2 and the required libraries installed on your computer.  
