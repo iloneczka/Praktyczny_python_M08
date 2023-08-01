@@ -27,10 +27,10 @@ The program is written in Python.
 ## Prerequisites
 To run this project, make sure you have Python 3.11.2 and the required libraries installed on your computer.  
 
-If you haven't installed the required libraries (Pandas and Matplotlib) yet, you can do so by running:
+If you haven't installed the pandas library yet, you can do so by running:
 
 ```
-   pip install pandas matplotlib
+   pip install pandas 
 ```
 ## Setup
 To run the project locally, follow these steps:
@@ -43,8 +43,23 @@ python3 stock_data_analysis.ipynb
 ```
 
 ## Testing
+This project includes unit tests for the `clean_data` function using `pytest`. The tests are written in the `test_stock_data_analysis.py` file.
 
-TODO
+The unit tests verify the correctness of the `clean_data` function. They cover aspects such as value conversion correctness, data type correctness, data integrity, and ensuring the original DataFrame remains unchanged.
+
+### Running Tests
+To run the tests, follow these steps:
+
+1. Install pytest if you haven't already, by:
+``` 
+pip3 install pytest
+```
+2. Navigate to the project directory.
+
+3. Run the tests by running the following command in the terminal:
+```
+pytest `test_stock_data_analysis.py`
+```
 
 ## Solutions
 The program uses the clean_data function to remove dollar signs from certain columns and convert them to float. It then calculates the 14-day moving average of the closing prices using the Pandas rolling function. The final result is a plot that displays the closing price, moving average, and volume of FB stock.
